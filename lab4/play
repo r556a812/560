@@ -1,0 +1,52 @@
+if (subtree -> getLeft() == nullptr && subtree -> getRight() == nullptr)
+        {
+            delete (subtree);
+            subtree = nullptr;
+        }
+        else if (subtree -> getRight() != nullptr)
+        {
+            Node* temp = subtree -> getRight();
+            int change = 0;
+
+            while (temp -> getLeft() != nullptr)
+            {
+                temp = temp -> getLeft();
+            }
+
+            change = temp -> getValue();
+
+            if (temp -> getRight() != nullptr)
+            {
+                if (subtree -> getRight() != temp)
+                {
+                    Node* temp2 = subtree;
+                    temp2 = temp2 -> getRight();
+                    while (temp2 -> getLeft() -> getLeft() != nullptr)
+                    {
+                        temp2 = temp2 -> getLeft();
+                    }
+
+                    temp2 -> setLeft(temp -> getRight());
+                    delete temp;
+                    temp = nullptr;
+                }
+                else if (subtree -> getRight == temp)
+                {
+                    subtree -> setNext(temp -> getRight());
+                    delete temp;
+                    temp = nullptr;
+                }
+
+            }
+            else
+            {
+                delete (temp);
+            }
+
+            subtree -> setValue(change);
+
+        }
+        else if (subtree -> getLeft() != nullptr)
+        {
+
+        } 

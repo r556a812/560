@@ -1,0 +1,193 @@
+n = 50000
+
+Build                                       
+
+1 BST: 0.024460 secs                        
+  Heap: 0.001355 secs
+  
+2 BST: 0.024641 secs
+  Heap: 0.001241 secs
+  
+3 BST: 0.025091 secs
+  Heap: 0.001243 secs
+  
+4 BST: 0.024889 secs
+  Heap: 0.001234 secs
+  
+5 BST: 0.025101 secs
+  Heap: 0.001237 secs
+  
+Avg
+
+BST: 0.0248364
+Heap: 0.001262
+
+
+Delete/Insert
+
+1 BST: 0.002105 secs                        
+  Heap: 0.614601 secs
+  
+2 BST: 0.002077 secs
+  Heap: 0.615977 secs
+  
+3 BST: 0.002523 secs
+  Heap: 0.612227 secs
+  
+4 BST: 0.001702 secs
+  Heap: 0.581609 secs
+  
+5 BST: 0.002281 secs
+  Heap: 0.598504 secs
+  
+Avg
+
+BST: 0.0021376
+Heap: 0.604584
+
+----------------------------------------
+
+n = 100000
+
+Build                                       
+
+1 BST: 0.056257 secs                        
+  Heap: 0.002541 secs
+  
+2 BST: 0.058687 secs
+  Heap: 0.002484 secs
+  
+3 BST: 0.057233 secs
+  Heap: 0.002490 secs
+  
+4 BST: 0.056759 secs
+  Heap: 0.002478 secs
+  
+5 BST: 0.056824 secs
+  Heap: 0.002480 secs
+  
+Avg
+
+BST: 0.057152
+Heap: 0.0024946
+
+
+Delete/Insert
+
+1 BST: 0.004842 secs                        
+  Heap: 2.391257 secs
+  
+2 BST: 0.004806 secs
+  Heap: 2.393018 secs
+  
+3 BST: 0.004631 secs
+  Heap: 2.394578 secs
+  
+4 BST: 0.003676 secs
+  Heap: 2.300593 secs
+  
+5 BST: 0.004188 secs
+  Heap: 2.422018 secs
+  
+Avg
+
+BST: 0.0044286
+Heap: 2.38029
+
+--------------------------------------
+
+n = 200000
+
+Build                                       
+
+1 BST: 0.126559 secs                        
+  Heap: 0.005098 secs
+  
+2 BST: 0.130091 secs
+  Heap: 0.004966 secs
+  
+3 BST: 0.136043 secs
+  Heap: 0.004974 secs
+  
+4 BST: 0.138117 secs
+  Heap: 0.004968 secs
+  
+5 BST: 0.129708 secs
+  Heap: 0.004996 secs
+  
+Avg
+
+BST: 0.132104
+Heap: 0.0050004
+
+
+Delete/Insert
+
+1 BST: 0.012139 secs                        
+  Heap: 9.617307 secs
+  
+2 BST: 0.009635 secs
+  Heap: 9.783695 secs
+  
+3 BST: 0.011885 secs
+  Heap: 9.677531 secs
+  
+4 BST: 0.009005 secs
+  Heap: 9.383323 secs
+  
+5 BST: 0.007981 secs
+  Heap: 9.681126 secs
+  
+Avg
+
+BST: 0.010129
+Heap: 9.6286
+
+-------------------------------------
+
+n = 400000
+
+Build                                       
+
+1 BST: 0.310535 secs                        
+  Heap: 0.010311 secs
+  
+2 BST: 0.398837 secs
+  Heap: 0.010332 secs
+  
+3 BST: 0.357709 secs
+  Heap: 0.010336 secs
+  
+4 BST: 0.277074 secs
+  Heap: 0.007950 secs
+  
+5 BST: 0.309169 secs
+  Heap: 0.010317 secs
+  
+Avg
+
+BST: 0.330665
+Heap: 0.0098492
+
+
+Delete/Insert
+
+1 BST: 0.017863 secs                        
+  Heap: 31.596389 secs
+  
+2 BST: 0.022464 secs
+  Heap: 31.251213 secs
+  
+3 BST: 0.020473 secs
+  Heap: 30.318096 secs
+  
+4 BST: 0.016146 secs
+  Heap: 30.119230 secs
+  
+5 BST: 0.024294 secs
+  Heap: 30.964148 secs
+  
+Avg
+
+BST: 0.020248
+Heap: 30.8498

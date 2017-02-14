@@ -1,0 +1,29 @@
+for n=500,1000,...
+    for i = 1:5. 6:10, ...
+        srand(i)
+        generate graph
+    end
+end
+
+
+
+
+GENERATE GRAPH:
+for j= 0 : n-2
+    for k=j+1 : n-1
+        x = rand()/RAND_MAX
+        if .5 <=x<=1
+            y = rand()/4n+1
+            add edge y to (j,k)
+        end
+    end
+end
+
+
+start timer
+    kruskal
+stop
+
+start timer
+    Prim
+stop timer
